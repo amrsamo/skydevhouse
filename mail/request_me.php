@@ -17,10 +17,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "skydevhouse";
+include('server.php');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
