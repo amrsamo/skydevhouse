@@ -153,6 +153,20 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/amrfotography.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Amr Fotography</h4>
+                        <p class="text-muted">Website Development and Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -732,6 +746,38 @@
                                 <p class="item-intro text-muted"></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/ifollowthelens.png" alt="">
                                 <p>Instagram Markering, creating a platform for all photographers in the world where you can see images from all over the world in one account.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>AmrFotography/h2>
+                                <p class="item-intro text-muted"></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/amrfotography.png" alt="">
+                                <p>
+                                    Developed a one page website with a beautiful design for 
+                                    <a target="_blank" href="https://www.instagram.com/amr__p/">Amr P</a>
+                                </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
