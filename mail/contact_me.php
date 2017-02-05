@@ -50,5 +50,49 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
+
+
+
+//GMAIL SCRIPT
+require 'phpmailer/PHPMailerAutoload.php';
+
+$email = 'support@skydevhouse.com';                    
+$password = 'Bakrbakr1';
+$to_id = 'support@skydevhouse.com';
+$message = $email_body;
+$subject = $email_subject;
+
+$mail = new PHPMailer;
+
+$mail->isSMTP();
+
+$mail->Host = 'smtp.gmail.com';
+
+$mail->Port = 587;
+
+$mail->SMTPSecure = 'tls';
+
+$mail->SMTPAuth = true;
+
+$mail->Username = $email;
+
+$mail->Password = $password;
+
+$mail->setFrom('from@example.com', 'Support SkyDevHouse');
+
+$mail->addReplyTo('replyto@example.com', 'First Last');
+
+$mail->addAddress($to_id);
+
+$mail->Subject = $subject;
+
+$mail->msgHTML($message);
+
+if (!$mail->send()) {
+   
+} 
+else {
+   
+}
 return true;         
 ?>
